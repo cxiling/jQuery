@@ -1,0 +1,5 @@
+
+var $inventory = $('#inventory tbody');
+var sum = $.sum($inventory.find('td:nth-child(2)').map(function(index, qty) {
+    return $(qty).text();
+  }).get());
