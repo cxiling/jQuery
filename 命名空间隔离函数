@@ -1,4 +1,4 @@
-```
+```javascript
 (function($) {
   $.mathUtils = {
     sum: function(array) {
